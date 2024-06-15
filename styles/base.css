@@ -1,15 +1,18 @@
 body {
-    font-family: 'Montserrat', Arial, sans-serif; /* Fonte principal */
+    font-family: 'Montserrat', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f9f9f9; /* Fundo cinza claro */
+    background-color: #f9f9f9;
+    /* Light gray background */
 }
 
 header {
-    background: #6a1b9a; /* Roxo */
-    color: #fff; /* Texto branco */
+    background: #6a1b9a;
+    /* Purple */
+    color: #fff;
+    /* White text */
     padding: 1em 0;
     text-align: center;
 }
@@ -19,13 +22,15 @@ header h1 {
 }
 
 header span {
-    color: #ba68c8; /* Lilás */
+    color: #9c27b0;
+    /* Darker shade of Purple */
 }
 
 .nav-container {
     display: flex;
     justify-content: center;
-    background: #6a1b9a; /* Roxo */
+    background: #6a1b9a;
+    /* Purple */
     padding: 1em 0;
 }
 
@@ -42,7 +47,8 @@ nav ul {
 }
 
 nav a:hover {
-    border: 1px solid #fff;
+    border: 1px solid #9c27b0;
+    /* Darker shade of Purple */
 }
 
 nav ul li {
@@ -51,9 +57,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* Texto branco */
+    color: #fff;
+    /* White text */
     text-decoration: none;
-    font-weight: bold; /* Negrito */
+    font-weight: bold;
 }
 
 main {
@@ -63,15 +70,21 @@ main {
     padding: 2em;
 }
 
-section.about-me, section.web-dev-resources {
+section.about-me,
+section.web-dev-resources {
     background: #fff;
+    /* White background */
     padding: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section.about-me h2, section.web-dev-resources h2, section.mogi h2 {
-    background: #ba68c8;
+section.about-me h2,
+section.web-dev-resources h2,
+section.mogi h2 {
+    background: #9c27b0;
+    /* Darker shade of Purple */
     color: #fff;
+    /* White text */
     padding: 0.5em;
     margin: -1em -1em 1em -1em;
     text-align: center;
@@ -83,7 +96,8 @@ section.about-me .about-content {
     align-items: center;
 }
 
-section.about-me img, section.mogi img {
+section.about-me img,
+section.mogi img {
     max-width: 150px;
     height: auto;
     border-radius: 50%;
@@ -101,11 +115,13 @@ section.web-dev-resources ul li {
 
 section.web-dev-resources ul li a {
     color: #6a1b9a;
+    /* Purple */
     text-decoration: none;
 }
 
 section.mogi {
     background: #fff;
+    /* White background */
     padding: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -126,8 +142,10 @@ section.mogi img {
 }
 
 footer {
-    background: #6a1b9a; /* Roxo */
-    color: #fff; /* Texto branco */
+    background: #6a1b9a;
+    /* Purple */
+    color: #fff;
+    /* White text */
     text-align: center;
     padding: 1em 0;
     margin-top: 2em;
