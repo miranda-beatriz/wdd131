@@ -78,10 +78,8 @@ section.web-dev-resources {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section.about-me h2,
-section.web-dev-resources h2,
-section.mogi h2 {
-    background: #ba68c8;
+section.about-me h2, section.web-dev-resources h2, section.mogi h2 {
+    background: #7b1fa2;
     color: #fff;
     padding: 0.5em;
     margin: -1em -1em 1em -1em;
