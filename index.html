@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Beatriz Miranda">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description"
+        content="WDD 131: Dynamic Web Fundamentals - Beatriz Miranda's webpage. Learn about Beatriz, her background, and web development resources.">
+    <title>WDD 131: Dynamic Web Fundamentals</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    Hello! Today it´s June 12th  and I am tired, I make two ballet classes and practice for the next apresentation
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>Beatriz Miranda</span></h1>
+        <nav class="nav-container">
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/123?lang=eng">Scripture</a>
+                </li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>My name is Beatriz and I go by Ruby. I was born in South Africa and live my family in Madagascar. I
+                    am currently working as administrative legal assistant at a law firm. My children are my world and I
+                    love spending time with them. I love to travel and I love to learn new things.</p>
+                <img src="images/Beatriz.jpg" alt="Beatriz Miranda">
+            </div>
+        </section>
+        <section class="web-dev-resources">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="#">Hashtag Treinamentos</a></li>
+                <li><a href="#">W3 Schools</a></li>
+                <li><a href="#">Udemy</a></li>
+            </ul>
+        </section>
+    </main>
+    <section class="mogi">
+        <h2>Mogi das Cruzes, São Paulo - Brasil</h2>
+        <div class="mogi-content">
+            <img src="images/bandeira-do-brasil.png" alt="Official Flag of Brasil">
+            <p>Madagascar is the 4th largest island in the world and is located in the Indian Ocean. It is home to 5% of
+                the world's plant and animal species, of which more than 80% are endemic to Madagascar. The island is
+                best known for its lemurs, baobab trees, and vanilla.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <span id="current-year">2024</span> <span>Beatriz Miranda</span> <span class="location">Brasil</span>
+        </p>
+        <p>Last Modification: <span id="last-modified">01/09/2024 15:26:53</span></p>
+    </footer>
 </body>
+
 </html>
