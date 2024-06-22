@@ -1,0 +1,19 @@
+document.addEventListener('DOMContentLoaded', function () {
+    let yearSpan = document.getElementById('current-year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
+
+    let lastModifiedSpan = document.getElementById('last-modified');
+    if (lastModifiedSpan) {
+        function formatLastModified(date) {
+            return date.toLocaleString();
+        }
+
+        function updateLastModified() {
+            let now = new Date();
+            lastModifiedSpan.textContent = formatLastModified(now);
+        }
+        updateLastModified();
+    }
+});
