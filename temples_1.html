@@ -9,7 +9,7 @@
     <meta name="keywords" content="temple, photos, church, Jesus Christ, album">
     <title>Temple Album</title>
     <script src="scripts/temples.js" defer></script>
-    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -74,7 +74,12 @@
         </p>
         <p>Last Modification: <span id="last-modified"></span></p>
     </footer>
-    <script src="scripts/temples.js"></script>
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.flex-nav ul');
+            menu.classList.toggle('show');
+        }
+    </script>
 </body>
 
 </html>
