@@ -21,6 +21,15 @@ document.addEventListener('DOMContentLoaded', function () {
     function toggleMenu() {
         let menu = document.querySelector('.flex-nav ul');
         menu.classList.toggle('show');
+
+        let hamburgerButton = document.querySelector('.hamburger');
+        if (hamburgerButton) {
+            if (menu.classList.contains('show')) {
+                hamburgerButton.textContent = 'X';
+            } else {
+                hamburgerButton.textContent = '☰';
+            }
+        }
     }
 
     let hamburgerButton = document.querySelector('.hamburger');
