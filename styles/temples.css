@@ -1,14 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    color: #001a4e;
+    background-color: #fdfdf5;
 }
 
 header {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #818bcc;
+    color: #001a4e;
     text-align: center;
+    padding: 1rem;
 }
 
 h1 {
@@ -102,7 +104,8 @@ nav a {
 /* Estilos opcionais para a galeria */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 colunas com largura igual */
     gap: 10px;
     padding: 10px;
 }
@@ -127,11 +130,13 @@ nav a {
     .flex-nav ul {
         flex-direction: column;
         align-items: center;
-        display: none; /* Esconde o menu no modo mobile */
+        display: none;
+        /* Esconde o menu no modo mobile */
     }
 
     .flex-nav ul.show {
-        display: flex; /* Mostra o menu quando ativo */
+        display: flex;
+        /* Mostra o menu quando ativo */
     }
 
     .flex-nav li {
@@ -144,13 +149,15 @@ nav a {
     }
 
     .gallery {
-        grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 colunas em telas menores */
     }
 }
 
 @media (max-width: 480px) {
     .gallery {
-        grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+        grid-template-columns: 1fr;
+        /* 1 coluna em telas muito pequenas */
     }
 
     h1 {
