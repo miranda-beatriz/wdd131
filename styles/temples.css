@@ -85,6 +85,8 @@ footer {
     color: #001a4e;
     text-align: center;
     padding: 1rem;
+    margin: 0;
+    font-size: 24px;
 }
 
 nav ul {
