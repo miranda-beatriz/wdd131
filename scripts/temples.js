@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
         updateLastModified();
     }
 
-    // Código do menu de hambúrguer
     function toggleMenu() {
         let menu = document.querySelector('.flex-nav ul');
         menu.classList.toggle('show');
