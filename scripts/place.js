@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
         updateLastModified();
     }
 
-    const temperature = 25;
-    const windSpeed = 15;
+    const temperature = 26;
+    const windSpeed = 19;
 
     function calculateWindChill(temp, wind) {
         return (13.12 + 0.6215 * temp - 11.37 * Math.pow(wind, 0.16) + 0.3965 * temp * Math.pow(wind, 0.16)).toFixed(1);
