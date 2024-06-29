@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #009C3B;
+    --primary-color: #FFCC00;
     --secondary-color: #FFCC00;
     --accent-color: #002776;
     --background-color: #E3F2FD;
-    --text-color: white;
+    --text-color: #000000;
     --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     --border-radius: 10px;
 }
