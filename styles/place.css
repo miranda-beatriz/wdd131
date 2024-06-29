@@ -81,6 +81,7 @@ main {
 }
 
 .weather h2::after {
+
     display: inline-block;
     width: 20px;
     height: 20px;
