@@ -3,7 +3,7 @@
     --secondary-color: #FFCC00;
     --accent-color: #002776;
     --background-color: #E3F2FD;
-    --text-color: #FFFFFF;
+    --text-color: #002776;
     --footer-text-color: #E3F2FD;
     --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     --border-radius: 10px;
@@ -41,6 +41,14 @@ main {
     padding: 1em;
     position: relative;
     z-index: 10;
+    color: var(--text-color);
+}
+
+h1,
+h2,
+span,
+p {
+    color: var(--text-color);
 }
 
 .image-section {
