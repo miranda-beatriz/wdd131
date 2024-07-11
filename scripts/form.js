@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     const products = [
-        { id: 'fc-1888', name: "Flux Capacitor", averageRating: 4.5 },
-        { id: 'fc-2050', name: "Power Laces", averageRating: 4.7 },
-        { id: 'fs-1987', name: "Time Circuits", averageRating: 3.5 },
-        { id: 'ac-2000', name: "Low Voltage Reactor", averageRating: 3.9 },
-        { id: 'jj-1969', name: "Warp Equalizer", averageRating: 5.0 }
+        { id: 'fc-1888', name: "Flux Capacitor" },
+        { id: 'fc-2050', name: "Power Laces" },
+        { id: 'fs-1987', name: "Time Circuits" },
+        { id: 'ac-2000', name: "Low Voltage Reactor" },
+        { id: 'jj-1969', name: "Warp Equalizer" }
     ];
 
     const productNameSelect = document.getElementById('product-name');
