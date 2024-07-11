@@ -1,7 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
     let reviewCounter = parseInt(localStorage.getItem('reviewCounter')) || 0;
+    console.log("Initial review counter value:", reviewCounter);
+
     reviewCounter++;
+    console.log("Incremented review counter value:", reviewCounter);
+
     localStorage.setItem('reviewCounter', reviewCounter);
+    console.log("Value stored in localStorage:", localStorage.getItem('reviewCounter'));
 
     const products = [
         { id: 'fc-1888', name: "Flux Capacitor" },
