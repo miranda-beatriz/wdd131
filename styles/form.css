@@ -22,7 +22,7 @@ body {
     margin-bottom: 20px;
 }
 
-.container h2 {
+.container h1 {
     text-align: center;
     color: #4B0082;
     margin-bottom: 20px;
@@ -111,7 +111,7 @@ footer {
         border: 2px solid #6200ea;
     }
 
-    .container h2 {
+    .container h1 {
         color: #6200ea;
         font-size: 2rem;
     }
