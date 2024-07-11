@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     localStorage.setItem('reviewCounter', reviewCounter);
     console.log("Value stored in localStorage:", localStorage.getItem('reviewCounter'));
 
+
     const products = [
         { id: 'fc-1888', name: "Flux Capacitor" },
         { id: 'fc-2050', name: "Power Laces" },
@@ -15,6 +16,16 @@ document.addEventListener('DOMContentLoaded', function () {
         { id: 'ac-2000', name: "Low Voltage Reactor" },
         { id: 'jj-1969', name: "Warp Equalizer" }
     ];
+    const productNameSelect = document.getElementById('product-name');
+    if (productNameSelect) {
+        products.forEach(product => {
+            let option = document.createElement('option');
+            option.value = product.id;
+            option.textContent = product.name;
+            productNameSelect.appendChild(option);
+        });
+    }
+
 
     const productNameSpan = document.getElementById('product-name');
     const overallRatingSpan = document.getElementById('overall-rating');
