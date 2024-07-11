@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #E6E6FA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4B0082;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #4B0082;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #4B0082;
+
+}
+
+.form-group select,
+.form-group input[type="date"],
+.form-group textarea,
+.form-group input[type="text"],
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4B0082;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #330066;
+}
+
+.rating-group,
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox-group div,
+.rating-group div {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"],
+.rating-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    color: #4B0082;
+    /* Indigo */
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    body {
+        justify-content: flex-start;
+        padding-top: 50px;
+    }
+
+    .container {
+        max-width: 700px;
+        padding: 40px;
+        border-radius: 15px;
+        background-color: #ffffff;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        border: 2px solid #6200ea;
+    }
+
+    .container h2 {
+        color: #6200ea;
+        font-size: 2rem;
+    }
+
+    .form-group select,
+    .form-group input[type="date"],
+    .form-group textarea,
+    .form-group input[type="text"],
+    .form-group input[type="submit"] {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+
+    }
+
+    .form-group input[type="submit"] {
+        margin-top: 20px;
+    }
+}
