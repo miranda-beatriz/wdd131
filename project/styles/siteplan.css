@@ -1,0 +1,51 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;
+    color: #4B2E2E;
+    margin: 0;
+    padding: 0;
+}
+
+.site-name {
+    font-family: 'Playwrite Cuba', serif;
+    background-color: #800020;
+    color: #C0C0C0;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.reason,
+.purpose,
+.scenarios,
+.color-info,
+.font-info,
+.wireframes {
+    padding: 20px;
+    background-color: #F5F5F5;
+    color: #4B2E2E;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: 'Playwrite Cuba', serif;
+    color: #800020;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.wireframes img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.wireframes h3 {
+    text-align: center;
+    color: #4B2E2E;
+}
